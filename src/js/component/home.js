@@ -17,8 +17,8 @@ export function Home() {
 		<>
 			<Navbar />
 			<div className="row">
-				<div className="col-sm-1 bg-success" />
-				<div className="col bg-danger text-center">
+				<div className="col-sm-1 bg-dark" />
+				<div className="col bg-dark text-center">
 					{people.map((item, index) => {
 						return (
 							<div
@@ -47,7 +47,7 @@ export function Home() {
 						);
 					})}
 				</div>
-				<div className="col-sm-1 bg-warning" />
+				<div className="col-sm-1 bg-dark" />
 			</div>
 			)
 		</>
